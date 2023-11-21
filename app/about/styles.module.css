@@ -1,0 +1,16 @@
+.link__styles {
+  text-decoration: none;
+  color: rgb(61, 60, 60);
+  transition: color 0.3s ease-in-out;
+}
+.link__styles:hover {
+  color: black;
+}
+.li__styles {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.9s ease-in-out;
+}
+.li__styles:hover {
+  transform: scale(1.2);
+}

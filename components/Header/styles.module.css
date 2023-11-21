@@ -1,0 +1,13 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: rgb(9, 1, 1);
+  margin-bottom: 30px;
+}
+.header__link {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}

@@ -1,0 +1,38 @@
+.flex__block {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1000px) {
+  .flex__block {
+    display: block;
+  }
+}
+.margin__top__block {
+  margin-top: 20px;
+}
+.margin__bottom__block {
+  margin-bottom: 20px;
+}
+.paragraph {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link__styles {
+  text-decoration: none;
+  color: rgb(61, 60, 60);
+  transition: color 0.3s ease-in-out;
+}
+.link__styles:hover {
+  color: black;
+}
+.li__styles {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.8s ease-in-out;
+}
+.li__styles:hover {
+  transform: scale(1.2);
+}
+/* Сделать плавную красивую анимацию + сделать какой-то определенённый цвет для ссылок чтобы было понятно что это ссылки 😂 */
